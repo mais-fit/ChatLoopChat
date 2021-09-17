@@ -15,3 +15,5 @@ Front-end
 Back-end
 - Linguagem de programação - Python
 - Framework python (em discussão) - Flask
+
+Link do projeto: Quando o professor precisar, será atualizada essa informação
