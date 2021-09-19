@@ -5,6 +5,7 @@
 3. Nome: Karoline Ferreira dos Santos RA: 1905211
 4. Nome: Kauan Amorim da Silva RA: 1904925
 5. Nome: Rhuan Eugênio Abadias Carvalho RA: 1905166
+6. Nome: Luciano Neves RA: 1904738 
 
 Front-end
 - Liguagem de Marcação - HTML5
