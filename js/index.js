@@ -21,7 +21,7 @@ request.onload = function() {
     var data = JSON.parse(this.response);
     if(request.status == 200){
         retorno = data;
-        document.getElementById("login").value = data['usuarios'][0]['login']
+        document.getElementById("inputEmailOuLogin").value = data['usuarios'][0]['login']
         document.getElementById("inputPassword").value = data['usuarios'][0]['password']
     }
   }
