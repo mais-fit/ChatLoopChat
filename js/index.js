@@ -15,9 +15,6 @@ document.getElementById("btn-entrar").onclick = function(e){
     validarLogin(usuario, senha)
 }
 
-<<<<<<< Updated upstream
-    window.location = './pages/main.html'
-=======
 var retorno = null;
 
 request.onload = function() {
@@ -38,5 +35,4 @@ function validarLogin(login, password) {
         window.location = './pages/main.html'
     }
     
->>>>>>> Stashed changes
 }
