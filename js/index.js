@@ -10,7 +10,7 @@ request.open("GET", url2, true);
 
 document.getElementById("btn-entrar").onclick = function(e){
     e.preventDefault()
-    usuario = document.getElementById("login").value;
+    usuario = document.getElementById("inputEmailOuLogin").value;
     senha = document.getElementById("inputPassword").value;
     validarLogin(usuario, senha)
 }
