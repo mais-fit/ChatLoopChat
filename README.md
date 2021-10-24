@@ -17,4 +17,4 @@ Back-end
 - Linguagem de programação - Python
 - Framework python (em discussão) - Flask
 
-Link do projeto: http://goyacoffee.s3-website-us-east-1.amazonaws.com/
+Link do projeto: http://testegoyacoffee.s3-website-sa-east-1.amazonaws.com/
