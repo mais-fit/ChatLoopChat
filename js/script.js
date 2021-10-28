@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-const url = 'http://localhost:5002/mensagem';
-=======
 const url = 'https://7gnixpkou4.execute-api.sa-east-1.amazonaws.com/getmensagem';
->>>>>>> 6077e148fc8d4a8f03c227f7021f287b45f6c2f2
 var request = new XMLHttpRequest();
 request.open("GET", url, true);
 
