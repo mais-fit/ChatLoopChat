@@ -54,17 +54,6 @@ request.open("GET", url, true);
     request.onload = function() {
       var data = JSON.parse(this.response);
       if(request.status == 200){
-<<<<<<< HEAD
-        data.forEach(mensagem => {
-          sendMessage(mensagem.texto);
-        });
-      }
-  }
-  request.send();
-  });
-  
-}.call(this));
-=======
         Object.values(data).forEach(
           mensagem => {
             for(x in mensagem){
@@ -78,4 +67,3 @@ request.open("GET", url, true);
   });
   
 }.call(this));
->>>>>>> 6077e148fc8d4a8f03c227f7021f287b45f6c2f2
